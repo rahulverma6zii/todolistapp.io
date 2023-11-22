@@ -1,46 +1,43 @@
-body{
-    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
-    height: 100vh;
-   
-    background-position: center;
+body {
+  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
 }
-.app{
-    height: 100vh;
+.app {
+  height: 100vh;
+  overflow: hidden;
+  background-color: white;
 }
-.app-header{
-    height:35%;
+.fa-refresh {
+  left: 90%;
+  top: 10px;
+  color: white;
+  cursor: pointer;
 }
- .fa{
-    cursor: pointer;
+.header {
+  height: 40%;
 }
-.fa-refresh{
-    right: 10px;
-    top: 10px;
+.content {
+  height: 53%;
 }
-.app-header img{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    z-index: 0;
+.footer {
+  height: auto;
 }
-
-.app-task{
-    height:55% ;
+.fa,
+i {
+  cursor: pointer;
 }
-.app-buttons{
-    height: 10%;
+.line-strike {
+  text-decoration: line-through;
 }
-.app-buttons{
-    
+.date {
+  bottom: 0;
 }
-input{
-    height: 80%;
-    width: 100%;
-    border: 0px;
-    
-
+.check {
+  text-decoration: line-through;
 }
-input:focus-visible{
-    border: 0px;
-    outline: 0px;
+.uncheck {
+  text-decoration: none;
+}
+.refresh{
+  rotate:360deg;
+  transition-duration: 1s;
 }
