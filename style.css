@@ -1,43 +1,61 @@
-body {
-  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+body{
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+    height: 100vh;
+
+    background-position: center;
 }
-.app {
-  height: 100vh;
-  overflow: hidden;
-  background-color: white;
+.app{
+    height: 100vh;
 }
-.fa-refresh {
-  left: 90%;
-  top: 10px;
-  color: white;
-  cursor: pointer;
+.app-header{
+    height:35%;
 }
-.header {
-  height: 40%;
+ .fa{
+    cursor: pointer;
 }
-.content {
-  height: 53%;
+.fa-refresh{
+    right: 10px;
+    top: 10px;
+    animation:  1s 1 ;
+  
 }
-.footer {
-  height: auto;
+.line{
+    text-decoration: line-through;
 }
-.fa,
-i {
-  cursor: pointer;
+.refresh-rotate{
+    transform: rotate(360deg);
 }
-.line-strike {
-  text-decoration: line-through;
+@keyframes refresh-rotate {
+   
+   100%{
+    transform: rotate(90deg);
+   }
+    
 }
-.date {
-  bottom: 0;
+.app-header img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: 0;
 }
-.check {
-  text-decoration: line-through;
+
+.app-task{
+    height:55% ;
 }
-.uncheck {
-  text-decoration: none;
+.app-buttons{
+    height: 10%;
 }
-.refresh{
-  rotate:360deg;
-  transition-duration: 1s;
+.app-buttons{
+
+}
+input{
+    height: 80%;
+    width: 100%;
+    border: 0px;
+
+
+}
+input:focus-visible{
+    border: 0px;
+    outline: 0px;
 }
